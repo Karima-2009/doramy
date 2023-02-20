@@ -1,0 +1,155 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.button {
+    text-decoration: none;
+    font-size: 23px;
+    color: white;
+    padding: 20px;
+    display: block;
+    border: 1px solid white;
+}
+
+nav {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 25px 100px 25px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 36px;
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+
+.h11 {
+    font-size: 50px;
+}
+
+h2 {
+    color: white;
+}
+
+.h22 {
+    text-align: center;
+}
+
+.post-text {
+    font-size: 24px;
+    color: white;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.post {
+    background-color: black;
+    padding: 15px 45px 30px 45px;
+    width: 400px;
+    margin: 20px;
+    position: relative;
+}
+
+.post-img {
+    border-radius: 20px;
+}
+
+.article-but {
+    box-shadow: 3px 5px 10px 0 red;
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+    opacity: 1;
+}
+
+.social {
+    display: block;
+    width: 20px;
+    text-align: center;
+}
+
+footer {
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 30px 20px 45px;
+}
+
+
+.footer-text {
+    font-size: 15px;
+    color: white;
+    margin-right: 30px;
+}
+
+
+.footer-logo {
+    margin-left: 500px;
+}
+
+aside {
+    display: block;
+    position: fixed;
+    background-color: white;
+    right: 0;
+    top: 230px;
+    border-radius: 10px;
+    width: 70px;
+    height: 180px;
+    padding: 20px;
+}
+
+.post-img {
+    position: relative;
+}
+
+.post:hover .post-text {
+    font-weight: bolder;
+}
+
+.post-img:hover {
+    width: 330px;
+    height: 430px;
+    transition: 0.1s ease-out;
+}
+
+.article-but:hover {
+    opacity: 0.7;
+}
+
+.button:hover {
+    border: 3px solid white;
+}
+
+.nav-link:hover {
+    color: grey;  
+}
+
